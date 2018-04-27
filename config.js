@@ -13,6 +13,9 @@ module.exports = {
 	"schema": {
 		"testJob": {
 			"l": "test Job"
+		},
+		"testJob2": {
+			"l": "test Job 2"
 		}
 	}
 };

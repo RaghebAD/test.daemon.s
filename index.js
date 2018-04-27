@@ -12,5 +12,10 @@ daemonDriver.init(function () {
 		next();
 	});
 
+	daemonDriver.job('testJob2', function (soajs, next) {
+		console.log('Hi');
+		next();
+	});
+
 	daemonDriver.start();
 });
