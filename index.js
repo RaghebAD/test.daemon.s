@@ -8,7 +8,7 @@ daemonDriver.init(function () {
 
 	daemonDriver.job('testJob', function (soajs, next) {
 		var servicesConfig = soajs.servicesConfig;
-		console.log('Hi');
+		console.log('Hi 1');
 		next();
 	});
 
