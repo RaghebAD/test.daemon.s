@@ -1,2 +1,2 @@
 # test.daemon.s
-hello 1
+hello 2
