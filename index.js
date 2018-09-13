@@ -13,7 +13,7 @@ daemonDriver.init(function () {
 	});
 
 	daemonDriver.job('testJob2', function (soajs, next) {
-		console.log('Hi');
+		console.log('Hi 2');
 		next();
 	});
 
